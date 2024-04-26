@@ -10,6 +10,9 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden;
+}
 
 body::-webkit-scrollbar {
     width: 12px; 
@@ -27,6 +30,16 @@ body::-webkit-scrollbar {
 
   body{
     background-color: #f8f8ff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Garante que o body ocupe toda a altura da janela */
+    
+    
+    overflow-x: hidden;
+    width: 100%;
+    z-index: -1;
+    
   }
 
 
@@ -107,7 +120,8 @@ nav li a:hover{
     align-items: center;
     padding: 180px;
     background-color: #082f49;
-    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     height:60rem;
     z-index: -2;
     
@@ -124,14 +138,10 @@ nav li a:hover{
     font-weight: bold;
 }
 
-#portfoliotext{
-    color: #a3e635;
-}
 
 
-#bemVindos{
-    color:#f8f8ff;
-}
+
+
 
 #souO{
     font-size: 20px;
@@ -159,6 +169,8 @@ nav li a:hover{
     margin-top:220px ;
     height: 800px;
     min-height: auto;
+    max-width: 805px;
+    
 
 
     
@@ -327,7 +339,7 @@ text-align: center;
 .projects{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:center;
     gap: 100px;
     margin-top: 40px;
     text-align: center;
@@ -555,14 +567,480 @@ text-align: center;
     to { width: 100%; } /* Termina com o texto totalmente visível */
   }
 
+ .footer{
+    position: relative;
+    background-color:#e5e7eb;
+    display: flex;
+    
+    align-items: center;
+    
+    
 
-  footer{
+
+    height: 10vh;
+    width: 100%;
+ }
+  footer {
+    
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* altura do rodapé */
     display: flex;
     text-align: center;
+    position: relative;
     justify-content: center;
-    padding: 20px;
-    background-color:#082f49 ;
-    color: #f8f8ff;
+    align-items: center;
   }
- 
 
+  @media screen and (max-width:1409px){
+    #Project1{
+        background-color: #082f49;
+        height: 300px;
+        width: 305px;
+        border-radius: 15px;
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+     #Project2{
+        background-color: #082f49;
+        height: 300px;
+        width: 305px;
+        border-radius: 15px;
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+     #Project3{
+        background-color: #082f49;
+        height: 300px;
+        width: 305px;
+        border-radius: 15px;
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+     #imgProject1{
+        height: 150px;
+        width: 200px;
+        align-items: center;
+        
+        object-fit: contain
+        
+     }
+
+     #imgProject2{
+        height: 180px;
+        width: 200px;
+        align-items: center;
+        
+        object-fit: contain
+        
+     }
+     #imgProject3{
+        height: 180px;
+        width: 200px;
+        align-items: center;
+        
+        object-fit: contain
+        
+     }
+    
+
+
+
+  }
+
+  @media screen and (max-width:1325px){
+    .footer{
+        margin-top: 1000px;
+    }
+  }
+
+  @media screen and (max-width:1159px){
+    #textoHome{
+        font-size: 40px;
+    }
+    
+    #myName{
+        font-size: 40px;
+        color: #f8f8ff;
+        font-weight: bold;
+    }
+
+    #welcome{
+        font-size: 30px;
+    }
+    #portfolio-name{
+        font-size: 58px
+    }
+
+    
+    
+    
+    
+    
+    
+    #souO{
+        font-size: 30px;
+        color: #a3e635;
+    }
+    
+    
+    
+    
+    #textoDeveloper{
+        font-weight:500;
+        font-size: 25px;
+    }
+    
+    
+    
+    /*imagem*/
+    
+    
+    
+    #imagem img{
+        position: relative;
+        margin-top:220px ;
+        height: 800px;
+        min-height: auto;
+        max-width: 805px;
+        
+   
+  }}
+  ;
+
+  @media screen and (max-width:1147px){
+    .projects{
+        gap: 10px;
+        }
+
+
+
+    
+  }
+
+  @media screen and (max-width:1121px) {
+    #Project1{
+        height: 300px;
+        width: 250px;
+        
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+     #Project2{
+        
+        height: 300px;
+        width: 250px;
+        
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+     #Project3{
+        height: 300px;
+        width: 250px;
+        
+        transition-duration:0.3s;
+      transform-origin: 0% ;
+      transform-origin:center;
+     }
+
+    
+    
+
+    
+  }
+
+
+  @media screen and (max-width:1109px) {
+    
+        
+        
+        
+        
+    .parteAboutMe{
+        position: relative;
+        background-color: #f8f8ff;
+    
+    
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 200px;
+        
+        
+        
+    
+       
+    
+        
+    }
+
+    #textaboutme{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    #imgAboutMe {
+        position: relative;
+        width:300px;
+        height: 305px;
+        margin-left: 190px;
+        
+        border-radius: 50%;
+        border: solid 3px #84cc16;
+        
+        
+    }
+    
+
+    
+  }
+
+  @media screen and (max-width:1109px) {
+    #imagem img{
+        height: 800px;
+        padding-top: 180px;
+    }
+  }
+
+  @media screen and (max-width:971px) {
+    .projects{
+        gap: 10px;
+    }
+
+    .parteAboutMe{
+        gap: 100px;
+        margin-left: -100px;
+        
+        
+    }
+
+    #imagem img{
+        height: 800px;
+        margin-bottom: 54px;
+    }
+  }
+
+  @media screen and (max-width:917px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 0;
+        gap: 30px;
+        
+        
+        
+
+        
+    }
+
+    #imagem img {
+        height: 600px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    
+    
+
+    
+
+  }
+
+  @media screen and (max-width:921px){
+    .listaHeader{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    header{
+        position: relative;
+        margin-bottom:  -90px;
+    }
+
+    
+
+    #iconesSkills{
+    
+        display: flex;
+
+        
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 100px;
+        gap: 20px;
+        margin-top: 40px;
+        height: 10px;
+        
+        
+        
+     }
+
+     .divSkill{
+        display: flex;
+        min-width: 100px;
+    max-height: 100px;
+    min-height:50px;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+
+    
+
+     }
+
+      
+  body::-webkit-scrollbar-thumb {
+    background-color: #a3e635;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+      /* creates padding around scroll thumb */
+  }
+
+    
+  }
+
+  @media screen and (max-width:721px) {
+    #imagem img{
+        height: 500px;
+    }
+
+    #imgAboutMe{
+        width: 205px;
+        height: 200px;
+    }
+
+    #textaboutme{
+        font-size: 10px;
+    }
+    #Project1{
+        height: 200px;
+        width: 200px;
+    }
+
+    .projects{
+        justify-content: center;
+    }
+
+    #imgProject1{
+        height: 80px;
+        
+        object-fit: contain;
+    }
+
+    #imgProject2{
+        height: 120px;
+        
+        object-fit: cover;
+    }
+    #imgProject3{
+        height: 120px;
+        
+        object-fit: cover;
+    }
+
+    
+
+    
+
+    #Project2{
+        height: 200px;
+        width: 200px;
+    }
+    #Project3{
+        height: 200px;
+        width: 200px;
+    }
+
+    .projectText{
+        font-size: 13px;
+    }
+  }
+
+  @media screen and (max-width:634px) {
+    #imagem img{
+        height: 450px;
+    }
+
+    #paragrafoAboutMe{
+        font-size: 40px;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects{
+        flex-wrap: wrap;
+    }
+
+    #nomePrincipal{
+        font-size: 20px;
+    }
+    .listaHeader{
+        gap: 20px;
+    }
+   .listaHeader a{
+    font-size: 15px;
+   }
+
+    
+  }
+
+  @media screen and (max-width:537px) {
+    #imgAboutMe {
+        height: 115px;
+        width: 120px;
+
+    }
+
+    #textaboutme{
+        font-size: 10px;
+    }
+
+    .contacts{
+        height: 10px;
+    }
+
+    #gitHubImg{
+        height: 30px;
+        width: 35px;
+    }
+
+    #linkedinImg{
+        height: 30px;
+        width: 35px;
+
+    }
+
+    #emailImg{
+        height: 30px;
+        width: 35px;
+    }
+
+    
+    
+  }
+
+  
+    
+  
+
+ 
