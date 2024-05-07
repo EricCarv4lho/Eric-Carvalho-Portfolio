@@ -777,21 +777,41 @@ background-color: rgb(127,126,217); }
 
   @media screen and (max-width:1109px) {
     
+        #textaboutme{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
         
-        
-        
+        #paragrafoAboutMe{
+           
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
         
     .parteAboutMe{
-        position: relative;
+        
         
     
     
-        height: 100vh;
-        width: 100%;
+       
         display: flex;
-        justify-content: space-between;
+
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        gap: 200px;
+        
+        padding: 0;
+        
+        
+        
         
         
         
@@ -801,22 +821,30 @@ background-color: rgb(127,126,217); }
         
     }
 
-    #textaboutme{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+    
     #imgAboutMe {
-        position: relative;
+        
         width:300px;
         height: 305px;
-        margin-left: 190px;
         
-        border-radius: 50%;
+
+        margin: 0;
+
+        
+        
+        
         
         
         
     }
+
+    
+
+    .contacts{
+        justify-content: center;
+    }
+
+
     
 
     
@@ -834,12 +862,9 @@ background-color: rgb(127,126,217); }
         gap: 10px;
     }
 
-    .parteAboutMe{
-        gap: 100px;
-        margin-left: -100px;
-        
-        
-    }
+   
+
+    
 
     #imagem img{
         height: 800px;
