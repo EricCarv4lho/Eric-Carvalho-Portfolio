@@ -971,8 +971,10 @@ background-color: rgb(127,126,217); }
     }
 
     #textaboutme{
-        font-size: 10px;
+        font-size: 18px;
     }
+
+   
     #Project1{
         height: 200px;
         width: 200px;
@@ -1077,28 +1079,14 @@ background-color: rgb(127,126,217); }
     font-size: 15px;
    }
 
-   .parteAboutMe{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
    
-
-    
    
-
-   }
 
    #imgAboutMe{
     margin: 0;
    }
 
-   #paragrafoAboutMe{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-   }
+  
 
     
   }
@@ -1106,9 +1094,7 @@ background-color: rgb(127,126,217); }
   @media screen and (max-width:537px) {
     
 
-    #textaboutme{
-        font-size: 10px;
-    }
+    
 
     .contacts{
         height: 10px;
