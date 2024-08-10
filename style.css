@@ -895,7 +895,10 @@ background-color: rgb(127,126,217); }
         padding: 0;
         
     }
-
+   
+    nav ul li a {
+        display: none;
+    }
     
     
 
