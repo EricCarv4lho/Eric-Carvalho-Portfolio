@@ -34,6 +34,14 @@ sr.reveal('.cardContainer', {
     origin: 'bottom'
 });
 
+sr.reveal('.divProjetos', {
+    delay: 200,
+    distance: '50px',
+    duration: 600,
+    easing: 'ease-out',
+    origin: 'top'
+});
+
 
 
 
