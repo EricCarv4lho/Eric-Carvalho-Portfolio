@@ -11,26 +11,26 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
-  
+
   padding:0;
-  
+
   scroll-behavior: smooth;
-  
+
 }
 
 nav{
   display:flex;
   justify-content: center;
-  
+
 
 }
 
 body {
   max-width: 100%;
   background-color: #fff;
-  
+
   overflow-x: hidden;
-  
+
 }
 
 
@@ -44,17 +44,17 @@ nav ul {
   margin: 0;
   display: flex;
   justify-content: center;
-  
+
   border-radius: 50px;
   padding: 5px;
-  
-  
+
+
 }
 
 nav ul li {
- 
-  
-  
+
+
+
   font-style: normal;
   margin: 0 1rem;
 }
@@ -62,18 +62,18 @@ nav ul li {
 header nav ul li a {
   color: #171717;
   text-decoration: none;
- 
+
   font-weight: 500;
   font-style: normal;
   font-size: small;
-  
+
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 header nav ul li a:hover {
   transform: scale(1.2);
- 
-  
+
+
 }
 
 .icones {
@@ -88,9 +88,9 @@ header nav ul li a:hover {
 }
 
 .icones img:hover {
-  
+
   transform: scale(1.2);
-  
+
 }
 
 
@@ -112,7 +112,7 @@ footer {
 }
 
 p {
-  
+
   font-weight: 100;
   font-style: normal;
 }
@@ -120,11 +120,11 @@ p {
 h1 {
   margin: 0;
   color: black;
-  
+
   font-weight: 500;
-  
+
   font-size: 100px;
-  
+
 }
 
 h1 span{
@@ -143,7 +143,7 @@ h2 {
   justify-content: center;
  font-size: 40px;
   font-weight: 500;
-  
+
 }
 
 h3{
@@ -168,7 +168,7 @@ h3{
 
 
 
- 
+
 
 
 
@@ -185,7 +185,7 @@ h3{
   align-items: center;
   text-align: center;
   box-shadow: 0 4px 8px rgba(95, 95, 95, 0.2);
- 
+
   overflow: hidden;
 }
 
@@ -203,7 +203,7 @@ h3{
   gap: 50px;
   max-width: 100%;
   flex-wrap: wrap;
-  
+
 }
 
 .name{
@@ -243,7 +243,7 @@ h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  
+
 }
 
 
@@ -259,7 +259,7 @@ h3{
   justify-content: center;
   position: relative;
   transition-duration: .5s;
-  
+
 }
 
 .profileDiv {
@@ -273,11 +273,11 @@ h3{
   background-color: rgb(24, 24, 24);
   transition-duration: .5s;
   color: #fff;
-  
+
   font-weight: 400;
   font-size: 16px;
 
-  
+
 }
 
 .cardContainer:hover .profileDiv {
@@ -340,9 +340,9 @@ h3{
   align-items: center;
   justify-content: center;
   color: rgb(14, 14, 14);
-  
-  
-  
+
+
+
 }
 
 
@@ -364,7 +364,7 @@ h3{
 
 #projeto2{
   width: 300px;
-  
+
 }
 
 button {
@@ -380,12 +380,12 @@ button {
   font-size: inherit;
   font-family: inherit;
  }
- 
+
  button.learn-more {
   width: 12rem;
   height: auto;
  }
- 
+
  button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
@@ -396,7 +396,7 @@ button {
   background: #282936;
   border-radius: 1.625rem;
  }
- 
+
  button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -405,7 +405,7 @@ button {
   margin: auto;
   background: #fff;
  }
- 
+
  button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
@@ -413,7 +413,7 @@ button {
   height: 0.125rem;
   background: none;
  }
- 
+
  button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
@@ -425,7 +425,7 @@ button {
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
  }
- 
+
  button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -441,16 +441,16 @@ button {
   text-align: center;
   text-transform: uppercase;
  }
- 
+
  button:hover .circle {
   width: 100%;
  }
- 
+
  button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
  }
- 
+
  button:hover .button-text {
   color: #fff;
  }
@@ -462,7 +462,7 @@ a {
 }
 
 .main__scroll-box{
-  
+
 }
 
 
@@ -504,7 +504,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #171717; 
   border-radius: 20px;      
-    
+
 }
 
 #aboutme{
@@ -514,7 +514,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
  gap: 100px;
 
-  
+
 }
 
 .parteCima{
@@ -551,7 +551,7 @@ body::-webkit-scrollbar-thumb {
     opacity: 1; /* Inicialmente oculto */
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     transform: translateY(50px);
-   
+
 }
 .spring{
   margin-left: 20px;
@@ -559,7 +559,7 @@ body::-webkit-scrollbar-thumb {
 }
 .spring :hover {
   fill: #502bd8;
-  
+
 }
 
 #spring{
@@ -569,7 +569,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #myImg{
-  
+
   height: 300px;
   border-radius: 50%;
   padding: 10px;
@@ -612,7 +612,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width:1024px){
   .parteCima{
     flex-direction: column;
-    
+
   }
   .myImg{
     order: 1;
@@ -630,19 +630,19 @@ body::-webkit-scrollbar-thumb {
   #myImg{
     height: 120px;
     margin: 0;
-    
+
   }
-   
+
   .parteCima{
-    
+
     gap: 20px;
   }
   .parteCima p{
    padding: 10px;
     font-size: 12px;
     order: 2; 
-    
-    
+
+
   }
 
   .parteBaixo{
@@ -652,7 +652,7 @@ body::-webkit-scrollbar-thumb {
     height: 400px;
   }
 
-  
+
 
 }
 
@@ -665,14 +665,52 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media screen and (max-width:412px){
- 
+@media screen and (max-width:540px){
+  .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
+  .projects{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .cardContainer{
+    height: 250px;
+
+  }
+
+  .cardContainer img{
+    height: 150px;
+  }
+
+  #projeto2{
+    object-fit: contain;
+  }
+}
+
+
+
+@media screen and (max-width:414px){
+
   #projeto2{
     object-fit: contain;
   }
   .cardContainer{
     height: 300px;
-   
+
   }
 
   .cardContainer img{
@@ -697,11 +735,143 @@ font-size: 13px;
 
 
 
-  
+
+}
+
+@media screen and (max-width:390px){
+  .parteCima p{
+    width: 200px;
+    padding: 10px;
+     font-size: 8px;
+     order: 2; 
+
+
+   }
+
+   .cardContainer{
+    height: 150px;
+    margin-bottom: 10px;
+
+  }
+
+  .cardContainer img{
+    display: none;
+
+  }
+
+  .profileDiv{
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .projects{
+    gap: 40px;
+  }
+
+
+
+   .parteBaixo ul li{
+    font-size: 12px;
+   }
+
+   .spring{
+    height: 15px;
+   }
+
+   button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+   }
+
+
+   .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
 }
 
 
 
 
+@media screen and (max-width:360px){
+
+  .parteCima p{
+    width: 200px;
+    padding: 10px;
+     font-size: 8px;
+     order: 2; 
 
 
+   }
+
+   .cardContainer{
+    height: 150px;
+    margin-bottom: 10px;
+
+  }
+
+  .cardContainer img{
+    display: none;
+
+  }
+
+  .profileDiv{
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+
+
+  .projects{
+    gap: 40px;
+  }
+
+
+
+   .parteBaixo ul li{
+    font-size: 12px;
+   }
+
+   .spring{
+    height: 15px;
+   }
+
+   button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+   }
+
+
+   .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
+}
