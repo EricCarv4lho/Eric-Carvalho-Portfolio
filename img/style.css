@@ -665,7 +665,45 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media screen and (max-width:412px){
+@media screen and (max-width:540px){
+  .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
+  .projects{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .cardContainer{
+    height: 250px;
+   
+  }
+
+  .cardContainer img{
+    height: 150px;
+  }
+
+  #projeto2{
+    object-fit: contain;
+  }
+}
+
+
+
+@media screen and (max-width:414px){
  
   #projeto2{
     object-fit: contain;
@@ -700,8 +738,140 @@ font-size: 13px;
   
 }
 
+@media screen and (max-width:390px){
+  .parteCima p{
+    width: 200px;
+    padding: 10px;
+     font-size: 8px;
+     order: 2; 
+     
+     
+   }
+
+   .cardContainer{
+    height: 150px;
+    margin-bottom: 10px;
+   
+  }
+
+  .cardContainer img{
+    display: none;
+
+  }
+
+  .profileDiv{
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+ 
+
+  .projects{
+    gap: 40px;
+  }
+
+  
+
+   .parteBaixo ul li{
+    font-size: 12px;
+   }
+
+   .spring{
+    height: 15px;
+   }
+
+   button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+   }
+   
+   
+   .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
+}
 
 
 
 
+@media screen and (max-width:360px){
 
+  .parteCima p{
+    width: 200px;
+    padding: 10px;
+     font-size: 8px;
+     order: 2; 
+     
+     
+   }
+
+   .cardContainer{
+    height: 150px;
+    margin-bottom: 10px;
+   
+  }
+
+  .cardContainer img{
+    display: none;
+
+  }
+
+  .profileDiv{
+    height: 100px;
+    margin-bottom: 50px;
+  }
+
+ 
+
+  .projects{
+    gap: 40px;
+  }
+
+  
+
+   .parteBaixo ul li{
+    font-size: 12px;
+   }
+
+   .spring{
+    height: 15px;
+   }
+
+   button{
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+   }
+   
+   
+   .icones{
+    align-items: center;
+    gap: 2px;
+   }
+
+   .icones img{
+    height: 15px;
+   }
+
+   .redesSociais{
+    gap: 15px;
+   }
+
+   footer p{
+    font-size: 10px;
+   }
+}
