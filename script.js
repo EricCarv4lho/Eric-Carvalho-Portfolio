@@ -1,15 +1,39 @@
-const text = "Portfolio"; // Texto a ser digitado
-let index = 0;
+window.sr = ScrollReveal({ reset: true});
+sr.reveal('.aboutme', {delay: 200})
+sr.reveal('.projects',{delay: 400});
+sr.reveal('#myImg', {
+    delay: 200,
+    distance: '50px',
+    duration: 600,
+    easing: 'ease-out',
+    origin: 'right'
+});
 
-function typeWriter() {
-  document.getElementById("portfolio-name").innerHTML += text.charAt(index);
-  index++;
-  if (index < text.length) {
-    setTimeout(typeWriter, 100); // Define a velocidade de digitação (100ms)
-  }
-}
+// Revela o parágrafo #textoAboutme com um atraso de 500ms e animação de baixo para cima
+sr.reveal('.textoAboutme', {
+    delay: 200,
+    distance: '50px',
+    duration: 600,
+    easing: 'ease-out',
+    origin: 'bottom'
+});
 
-// Chama a função typeWriter assim que a página é carregada
-window.onload = function() {
-  typeWriter();
-};
+sr.reveal('.parteBaixo', {
+    delay: 200,
+    distance: '50px',
+    duration: 600,
+    easing: 'ease-out',
+    origin: 'bottom'
+});
+
+sr.reveal('.cardContainer', {
+    delay: 200,
+    distance: '50px',
+    duration: 600,
+    easing: 'ease-out',
+    origin: 'bottom'
+});
+
+
+
+
