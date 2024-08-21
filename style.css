@@ -18,6 +18,41 @@ html, body {
 
 }
 
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.social-icons i{
+  
+  font-size: 40px;
+  
+}
+
+.social-icons i{
+  
+  font-size: 40px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+
+
+
 nav{
   display:flex;
   justify-content: center;
