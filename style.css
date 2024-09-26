@@ -142,8 +142,13 @@ header nav ul li a:hover {
 
 #home{
   background-color: #fff;
+ 
 }
 
+
+.main__action{
+ padding: 50px;
+}
 .divProjetos img{
   height: 200px;
 }
@@ -673,7 +678,22 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width:1024px){
   .parteCima{
     flex-direction: column;
+    
 
+  }
+ 
+  .dev-icons{
+    display: flex ;
+    gap: 10px;
+  }
+
+
+  .software-skill-inline{
+    font-size: 20px;
+  }
+
+  .spring{
+    height: 22px;
   }
   .myImg{
     order: 1;
@@ -709,8 +729,17 @@ body::-webkit-scrollbar-thumb {
   .parteBaixo{
     margin-bottom: 40px;
   }
+
+  .projects{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 700px;
+  }
   .cardContainer{
     height: 400px;
+    width: 300px;
   }
 
 
@@ -746,6 +775,7 @@ body::-webkit-scrollbar-thumb {
   .projects{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 
   }
   .cardContainer{
@@ -765,17 +795,24 @@ body::-webkit-scrollbar-thumb {
 
 
 @media screen and (max-width:414px){
+   
 
-  #projeto2{
-    object-fit: contain;
+  .projects{
+    
+    
+    flex-wrap: nowrap;
   }
+  
   .cardContainer{
     height: 300px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
 
   }
 
   .cardContainer img{
-    height: 200px;
+    height: 150px;
   }
 
   ul{
